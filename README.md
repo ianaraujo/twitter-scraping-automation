@@ -15,6 +15,8 @@ That said, we have two possibilities:
 - Either pay for the "premium" API wich allows you to search the full Twitter arquive;
 - Or use this project to automate the scraping of tweets for a long period of time in order to build an extensive database on determined topic. 
 
+The main goal, besides developing my first open source project, is to make this script easily avaible to researchers to implement it on their projects.
+
 # How to use it for my research/project? 
 
 # How to run this script? 
