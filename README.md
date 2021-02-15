@@ -6,7 +6,7 @@ This repo provides a script written to automate the procces of sustained twitter
 
 Read the rest of this README.md for more information about the thought procces and use guide. I'm not an experienced programmer so feel free to contribue and address issues to help me on this project. 
 
-# Why writing this code? 
+# Why I wrote this code? 
 
 The biggest drawback of using the Twitter Developer API for scraping tweets and doing research on the field of social sciences is the time span limitation. Both the R and Python libraries that interact with the API face this issue of only having access to tweets posted 7-9 days in the past. This limits the work of researchers that choose this methodology. 
 
@@ -38,4 +38,4 @@ Access the `api-config.json` file on the config folder and insert your personal 
 
 This optional: start a sometype of task scheduler to automate the process of running the R script every 3 days or every week
 
-# How to run this script? 
+# How to maintain this script running and collecting information? 
