@@ -40,4 +40,4 @@ Access the `api-config.json` file on the config folder and insert your personal 
 
 This optional: start a sometype of task scheduler to automate the process of running the R script every 3 days or every week
 
-# How to maintain this script running and collecting information? 
+# How to maintain this script running and collecting information 24/7? 
