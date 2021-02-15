@@ -2,7 +2,7 @@
 
 ----
 
-A script written to automate the procces of sustained twitter search/scraping using the R programming language.
+This repo provides a script written to automate the procces of sustained twitter search/scraping using the R programming language.
 
 Read the rest of this README.md for more information about the thought procces and use guide. 
 
