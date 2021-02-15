@@ -8,4 +8,9 @@ Read the rest of this README.md for more information about the thought procces a
 
 # Why writing this code? 
 
-The biggest drawback of using the Twitter Developer API for scraping tweets (mainly for research) is the time span limitation. Both the R and Python libraries that use the API face this issue of only having access to tweets posted 7-9 days in the past. This limits the researchers possibilities while studing social media using this methodology. 
+The biggest drawback of using the Twitter Developer API for scraping tweets and doing research on the field of social sciences is the time span limitation. Both the R and Python libraries that interact with the API face this issue of only having access to tweets posted 7-9 days in the past. This limits the work of researchers that choose this methodology. 
+
+That said, we have two possibilities: 
+
+- Either pay for the "premium" API wich allows you to search the full Twitter arquive;
+- Or use this project to automate the scraping of tweets for a long period of time in order to build an extensive database on determined topic. 
