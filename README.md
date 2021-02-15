@@ -1,6 +1,6 @@
 <img src="https://svgur.com/i/BW3.svg" width="100%" height="75">
 
-----
+#
 
 This repo provides a script written to automate the procces of sustained twitter search/scraping using the R programming language.
 
