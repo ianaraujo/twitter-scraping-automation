@@ -17,6 +17,8 @@ That said, we have two possibilities:
 
 The main goal, besides developing my first open source project, is to make this script easily avaible to researchers to implement it on their projects.
 
+# How it works? 
+
 # How to use it for your research/project? 
 
 This script was idealized to minimize human interaction and the obligation to run it manually. After cloning this project I recommend following 3 simples steps to set everything up and start scraping. 
