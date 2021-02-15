@@ -1,5 +1,7 @@
 <img src="https://svgur.com/i/BW3.svg" width="100%" height="75">
 
+----
+
 A script written to automate the procces of sustained twitter search/scraping using the R programming language.
 
 Read the rest of this README.md for more information about the thought procces and use guide. 
