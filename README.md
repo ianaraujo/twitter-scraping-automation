@@ -10,20 +10,19 @@
 
 # Twitter Scraping Automation [work in progress]
 
-This repo provides a script written to automate the procces of sustained twitter search/scraping using the R programming language.
+This repo contains the software written to automate the procces of sustained tweets search/scraping using the R programming language and the Twitter Developer API. Not only provides the software, but some discussion about automation, hardware and deploying, aiming a less experienced user.
 
-Read the rest of this README.md for more information about the thought procces and use guide. I'm not an experienced programmer so feel free to contribue and address issues to help me on this project. 
+Read the rest of this README.md for more information about the thought procces and use guide. I'm far from beeing an experienced programmer so feel free to contribue and address issues to help me on this project. 
 
 # Why I wrote this code? 
 
-The biggest drawback of using the Twitter Developer API for scraping tweets and doing research on the field of social sciences is the time span limitation. Both the R and Python libraries that interact with the API face this issue of only having access to tweets posted 7-9 days in the past. This limits the work of researchers that choose this methodology. 
+The biggest drawback while using the Twitter Developer API for scraping tweets and doing social media research in social sciences is the time span limitation. Both the R (rtweet) and Python (tweepy) libraries that interact with the API face this issue of only having access to tweets posted 7-9 days in the past. This limits the studies possibilitys of researchers who intend to work with this methodology (myself included).
 
-That said, we have two possibilities: 
+I was working in a project related to Universal Basic Income policys and part of my job was to search for tweets mencioning the topic from both citizens and politicians. Because I had othes jobs to focus on I started developing some way to search this tweets with less effort as possible (i.e as automatic as possible). 
 
-- Either pay for the "premium" API wich allows you to search the full Twitter arquive;
-- Or use this project to automate the scraping of tweets for a long period of time in order to build an extensive database on determined topic. 
+Here I doccument this journey and the current state of this application that I intend to share and help other students/researches.
 
-The main goal, besides developing my first open source project, is to make this script easily avaible to researchers to implement it on their projects.
+The main goal here, besides developing my first open source project, is to make this script also easily avaible and replicable for people to implement it on their projects.
 
 # How it works? 
 
