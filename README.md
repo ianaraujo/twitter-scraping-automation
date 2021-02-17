@@ -30,9 +30,9 @@ The idea behind it is very simple. You need to be able to search tweets every 3-
 
 The second step, after writing the software, is to figure out a way of automating the task of running the R script. On your local machine you could use any task scheduler to program a certain time and period to run your code. For this I used `cron` on Ubuntu. 
 
-The problem is: you'll need your computer on all the time or at least make sure it will be on when the code is set to run. This results on a lot of problems, because you will often forget to turn it on. The solution is to run the code on a server or a cloud service, making sure your code will always run without exceptions and no tweet will be lost. 
+The problem is: you'll need your computer on all the time or at least make sure it will be on when the code is set to run. This results on a lot of problems, because you will often forget to turn it on. The solution is to run the code on a server or a cloud service, making sure your code will always run without exceptions and no tweet will be lost. For this I recommend repourposing an old computer/laptop and use it as a server, installing Debian or Ubuntu. Another option is to use a Raspberry Pi wich will reduce the energy consuption. I'll talk about both of this methods below. 
 
-Using this method you will be able to cummulate a great amount of data, the outcome of days or months of search, to build a reliabre source of information to your research or project. You can run it for as long as you can and editing the `query-config.json` you'll be able to add and remove terms changing the subject of your searh maintaining the data collected previously. 
+Using this method (software + server) you will be able to cummulate a great amount of data, the outcome of days or months of search, to build a reliabre source of information to your research or project. You can run it for as long as you can and editing the `query-config.json` you'll be able to add and remove terms changing the subject of your searh maintaining the data collected previously. 
 
 # How to use it? 
 
