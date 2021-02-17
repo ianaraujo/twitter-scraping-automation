@@ -1,8 +1,8 @@
 <br>
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/3d/Twitter_logo_2012.svg/1200px-Twitter_logo_2012.svg.png" width="75" height="50"/> 
   <img src="https://elinux.org/images/c/cb/Raspberry_Pi_Logo.svg" width="100" height="75"/> 
+  <img src="https://svgur.com/i/BW3.svg" width="100" height="75"/> 
   <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="100" height="75"/>
 <p/>
 
