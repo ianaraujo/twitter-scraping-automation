@@ -8,7 +8,7 @@
 
 <br>
 
-# Twitter Scraping Automation
+# Twitter Scraping Automation [work in progress]
 
 This repo provides a script written to automate the procces of sustained twitter search/scraping using the R programming language.
 
