@@ -26,7 +26,15 @@ The main goal here, besides developing my first open source project, is to make 
 
 # How it works? 
 
-# How to use it for your research/project? 
+The idea behind it is very simple. You need to be able to search tweets every 3-6 days communicatiing with the API via `rtweet` and store this data somewhere. You could make a script and run it manually, sure! But this script implements a way to make it automatic, plus searching various terms at the same time. Also you need figure out a way to make the data collection as efficient as possible, not scraping duplicate information and storing it on a reliable place and format. 
+
+The second step, after writing the software, is to figure out a way of automating the task of running the R script. On your local machine you could use any task scheduler to program a certain time and period to run your code. For this I used `cron` on Ubuntu. 
+
+The problem is: you'll need your computer on all the time or at least make sure it will be on when the code is set to run. This results on a lot of problems, because you will often forget to turn it on. The solution is to run the code on a server or a cloud service, making sure your code will always run without exceptions and no tweet will be lost. 
+
+Using this method you will be able to cummulate a great amount of data, the outcome of days or months of search, to build a reliabre source of information to your research or project. You can run it for as long as you can and editing the `query-config.json` you'll be able to add and remove terms changing the subject of your searh maintaining the data collected previously. 
+
+# How to use it? 
 
 This script was idealized to minimize human interaction and the obligation to run it manually. After cloning this project I recommend following 3 simples steps to set everything up and start scraping. 
 
@@ -47,4 +55,4 @@ Access the `api-config.json` file on the config folder and insert your personal 
 
 This optional: start a sometype of task scheduler to automate the process of running the R script every 3 days or every week
 
-# How to maintain this script running and collecting information 24/7? 
+# ? 
