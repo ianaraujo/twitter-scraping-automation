@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img src="https://svgur.com/i/BW3.svg" width="150" height="75"/> 
+  <img src="https://svgur.com/i/BW3.svg" width="100" height="75"/> 
   <img src="https://elinux.org/images/c/cb/Raspberry_Pi_Logo.svg" width="100" height="75"/> 
   <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="100" height="75"/>
 <p/>
