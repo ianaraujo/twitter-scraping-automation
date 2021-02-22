@@ -12,7 +12,7 @@
 
 This repo contains the software written to automate the procces of "sustained" search/scraping on Twitter using R and the Twitter Developer API. Not only provides the software, but here I'll discuss something about automation, hardware and deploying, providing an extensive guide aiming less experienced users.
 
-Read the rest of this `README.md` file for more information about the thought procces and use guide. I'm far from beeing an experienced programmer so feel free to contribue and address issues to help me on this project. Also you can contact me on Twitter (@ianvaraujo) or email (ianaraujo15@gmail.com). 
+Read the rest of this `README.md` file for more information about the thought procces and use guide. I'm far from beeing an experienced programmer so feel free to contribue and address issues to help me on this project. Also you can contact me on Twitter ([@ianvaraujo](https://twitter.com/ianvaraujo)) or email (ianaraujo15@gmail.com). 
 
 # Why I wrote this code? 
 
