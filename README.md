@@ -16,9 +16,9 @@ Read the rest of this `README.md` file for more information about the thought pr
 
 # Why I wrote this code? 
 
-The biggest drawback while using the Twitter Developer API for scraping tweets and performing social media research in social sciences is the time span limitation. Both the R (rtweet) and Python (tweepy) libraries, that interact with the API, fall under the problem of having access only to tweets posted *7-9 days in the past*. This limits the studies possibilitys of researchers who intend to work with this methodology (myself included). Twitter provides a "premium" developer account wich allows to search the entire Twitter arquive (since ≅ 2007)
+The biggest drawback while using the Twitter Developer API for scraping tweets and performing social media research in social sciences is the time span limitation. Both the R (rtweet) and Python (tweepy) libraries, that interact with the API, fall under the problem of having access only to tweets posted **7-9 days in the past**. This limits the study possibilitys of researchers who intend to work using this methodology (myself included). Twitter provides a ["premium" developer account](https://developer.twitter.com/en/products/twitter-api/premium-apis) wich allows to search **30 days in the past** or even the entire Twitter arquive (since ≅ 2007) depending on wich subscription you choose.
 
-I was working on a project related to Universal Basic Income policys and as part of my job I had to search for tweets, from both citizens and politicians, mencioning the topic ("basic income"). Because I also had other tasks inside this project to focus on, such as reading and writing, I started developing some way to search this tweets with less effort as possible (i.e as automatic as possible). 
+I was working on a project related to Universal Basic Income policys and as part of my job I had to search for tweets, from both citizens and politicians, mencioning the topic "basic income". Because I also had other tasks inside this project to focus on, such as reading and writing, I started developing some way to search this tweets with less effort as possible (i.e as automatic as possible). 
 
 Here I doccument this journey and the current state of development for this application that I intend to share and open for contribution. 
 
