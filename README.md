@@ -24,7 +24,7 @@ Here I doccument this journey and the current state of development for this appl
 
 The main goal here, besides sharing my first open source project, is to make this script easy to use and avaible for people who don't necessarily master R or computational tools for applied humanities research.
 
-# How it works? 
+# How does it works? 
 
 The idea behind it is very simple. You need to be able to search tweets every 3-6 days communicatiing with the API via `rtweet` and store this data somewhere. You could make a script and run it manually, sure! But this script implements a way to make it automatic, plus searching various terms at the same time. Also you need figure out a way to make the data collection as efficient as possible, not scraping duplicate information and storing it on a reliable place and format. 
 
