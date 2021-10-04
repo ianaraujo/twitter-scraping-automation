@@ -1,0 +1,18 @@
+# Twitter Scraping Automation by Ian Araujo
+
+# Terms used to search tweets
+
+keywords:
+  - "renda básica"
+  - "auxílio emergencial"
+  - "auxílio brasil"
+  - "renda mínima"
+
+# Twitter API credentials
+
+api_oauth:
+  app_name: "Twitter Scraping Automation"
+  consumer_key: "SUJEEyeTdkicBC3YlxLlDaUYP"
+  consumer_secret: "iqqFR38VZmOrwdk7fk3RVN5F8Y1E4mk1hmpsbxzkdy4413Jt6j"
+  access_token: "1094608003817443329-1SqyiwPxlkwipmvwfiq9Nlc3zGGEyr"
+  access_token_secret: "1QVY4m16IJW2sYS2lP0PKEzEz2SIc6a3H1v3U9n5XRCY1"
