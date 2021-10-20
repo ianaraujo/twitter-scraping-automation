@@ -11,7 +11,7 @@ keywords:
 
 api_oauth:
   app_name: "XXXXXXXXXX"
-  consumer_key: "XXXXXXXXXX"
-  consumer_secret: "XXXXXXXXXX"
+  api_key: "XXXXXXXXXX"
+  api_key_secret: "XXXXXXXXXX"
   access_token: "XXXXXXXXXX"
   access_token_secret: "XXXXXXXXXX"
