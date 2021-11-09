@@ -4,8 +4,19 @@ setwd("/home/ianaraujo/Projects/R/twitter-scraping-automation/")
 
 # Install project required packages
 
-library(yaml)
-library(rtweet)
+packages <- installed.packages()
+
+if (!"yaml" %in% packages) {
+  install.packages("yaml")
+} else {
+  library(yaml)
+}
+
+if (!"rtweet" %in% packages) {
+  install.packages("rtweet")
+} else {
+  library(rtweet)
+}
 
 config <- read_yaml(file = "config.yml")
 
@@ -17,7 +28,7 @@ api_keys <- config$api_oauth
 create_token(app = api_keys$app_name,
              consumer_key = api_keys$consumer_key, consumer_secret = api_keys$consumer_secret,
              access_token = api_keys$access_token, access_secret = api_keys$access_token_secret,
-             set_renv = TRUE)
+             set_renv = FALSE)
 
 # Read the config file with the provided search keywords
 
