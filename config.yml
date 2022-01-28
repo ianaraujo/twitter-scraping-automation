@@ -15,3 +15,7 @@ api_oauth:
   api_key_secret: "XXXXXXXXXX"
   access_token: "XXXXXXXXXX"
   access_token_secret: "XXXXXXXXXX"
+
+# Use PostgreSQL database or store files into the system
+
+database: true
