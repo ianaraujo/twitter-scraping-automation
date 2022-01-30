@@ -13,6 +13,8 @@ search_terms = conf['keywords']
 credentials = conf['api_oauth']
 database = conf['database']
 
+assert database == 0, 'Essa função ainda encontra-se em desenvolvimento! Por favor escolher opção "database = false"'
+
 # Twitter API
 
 token = tp.OAuthHandler(
