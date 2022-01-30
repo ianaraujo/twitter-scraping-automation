@@ -6,7 +6,7 @@ import pandas as pd
 
 # handle config file info
 
-with open('test.yml') as f:
+with open('config/test.yml') as f:
     conf = yaml.safe_load(f)
 
 search_terms = conf['keywords']
@@ -14,6 +14,11 @@ credentials = conf['api_oauth']
 database = conf['database']
 
 assert database == 0, 'Essa função ainda encontra-se em desenvolvimento! Por favor escolher opção "database = false"'
+
+if database == 0:
+    pass
+else:
+    pass
 
 # Twitter API
 
